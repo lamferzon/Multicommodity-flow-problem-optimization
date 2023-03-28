@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="ASCII"?><project>
+    	
+    <version>1.0</version>
+    	
+    <configs>
+        		
+        <config default="false" name="Conf_k2_SPLIT" category="opl">
+            			
+            <ref name="Model_SPLIT.mod" type="model">
+			</ref>
+            			
+            <ref name="Data_k2_SPLIT.dat" type="data">
+			</ref>
+            		
+        </config>
+        		
+        <config default="true" name="Conf_k2_UNSPLIT" category="opl">
+            			
+            <ref name="Model_UNSPLIT.mod" type="model">
+			</ref>
+            			
+            <ref name="Data_k2_UNSPLIT.dat" type="data">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="Conf_k5_SPLIT" category="opl">
+            			
+            <ref name="Model_SPLIT.mod" type="model">
+			</ref>
+            			
+            <ref name="Data_k5_SPLIT.dat" type="data">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="Conf_k10_SPLIT" category="opl">
+            			
+            <ref name="Model_SPLIT.mod" type="model">
+			</ref>
+            			
+            <ref name="Data_k10_SPLIT.dat" type="data">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="Conf_k15_SPLIT" category="opl">
+            			
+            <ref name="Model_SPLIT.mod" type="model">
+			</ref>
+            			
+            <ref name="Data_k15_SPLIT.dat" type="data">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="Conf_k20_SPLIT" category="opl">
+            			
+            <ref name="Model_SPLIT.mod" type="model">
+			</ref>
+            			
+            <ref name="Data_k20_SPLIT.dat" type="data">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="Conf_k5_UNSPLIT" category="opl">
+            			
+            <ref name="Model_UNSPLIT.mod" type="model">
+			</ref>
+            			
+            <ref name="Data_k5_UNSPLIT.dat" type="data">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="Conf_k10_UNSPLIT" category="opl">
+            			
+            <ref name="Model_UNSPLIT.mod" type="model">
+			</ref>
+            			
+            <ref name="Data_k10_UNSPLIT.dat" type="data">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="Conf_k15_UNSPLIT" category="opl">
+            			
+            <ref name="Model_UNSPLIT.mod" type="model">
+			</ref>
+            			
+            <ref name="Data_k15_UNSPLIT.dat" type="data">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="Conf_k20_UNSPLIT" category="opl">
+            			
+            <ref name="Model_UNSPLIT.mod" type="model">
+			</ref>
+            			
+            <ref name="Data_k20_UNSPLIT.dat" type="data">
+			</ref>
+            		
+        </config>
+        	
+    </configs>
+    	
+
+</project>

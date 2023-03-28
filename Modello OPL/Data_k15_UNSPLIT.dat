@@ -1,0 +1,29 @@
+/*********************************************
+ * OPL 22.1.0.0 Data
+ * Author: Lorenzo Leoni
+ * Creation Date: 27 mag 2022 at 16:28:16
+ *********************************************/
+ 
+ SheetConnection sheet1("N_RENATER.xls");
+ SheetConnection sheet2("A_RENATER.xls"); 
+ SheetConnection sheet3("K_RENATER_15.xls");
+ SheetConnection sheet4("Risultati.xlsx"); 
+ 
+ CSs from SheetRead(sheet1,"'Sheet1'!A2:A44");
+ TPs from SheetRead(sheet1,"'Sheet1'!A45:A50");
+ DNs from SheetRead(sheet1,"'Sheet1'!A51:A56");
+ 
+ INs from SheetRead(sheet2, "'Sheet1'!A114:A125");
+ OUTs from SheetRead(sheet2, "'Sheet1'!A126:A131");
+ TRASFs from SheetRead(sheet2, "'Sheet1'!A2:A113");
+ 
+ CS from SheetRead(sheet1, "'Sheet1'!D2:E44");
+ 
+ Input from SheetRead(sheet2, "'Sheet1'!D114:G125");
+ Output from SheetRead(sheet2, "'Sheet1'!D126:G131");
+ Trasferimento from SheetRead(sheet2, "'Sheet1'!D2:G113");
+ 
+ Traffico from SheetRead(sheet3, "'Sheet1'!A2:F7");
+ 
+ f1 to SheetWrite(sheet4, "k15_UNSPLIT!A1:F112");
+ z to SheetWrite(sheet4, "k15_UNSPLIT!A115:A158"); 
