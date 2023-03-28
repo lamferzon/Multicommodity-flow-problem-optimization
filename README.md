@@ -1,7 +1,7 @@
 # Un modello di ottimizzazione in IBM OPL CPLEX  per la risoluzione dei problemi di network design e di multicommodity flow #
 
 ## Autore ##
-- Lorenzo LEONI: studente magistrale in ingegneria informatica presso l'università di Bergamo
+- Lorenzo LEONI: studente magistrale in ingegneria informatica presso l'università di Bergamo.
 
 ![Image 1](perREADME/Copertina.png)
 - [x] *Instradamento di due traffici sulla dorsale RENATER con suddivisione dei flussi ai nodi*.
