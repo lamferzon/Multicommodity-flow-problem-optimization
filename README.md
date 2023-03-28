@@ -3,5 +3,8 @@
 ## Autore ##
 - Lorenzo LEONI: studente magistrale in ingegneria informatica presso l'università di Bergamo
 
+![Image 1](perREADME/Copertina.png)
+- [x] *Instradamento di due traffici sulla dorsale RENATER con suddivisione dei flussi ai nodi*.
+
 ## Premessa ##
 Progettare una rete di telecomunicazione e individuare la migliore politica di instradamento dei traffici su di essa non è banale per via dei numerosi vincoli che devono essere presi in considerazione. L'obiettivo di questo progetto è realizzare un modello di ottimizzazione in ambiente IBM OPL CPLEX finalizzato alla risoluzione di questi problemi ispirandosi a una rete realmente esistente, la francese RENATER.
